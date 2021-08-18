@@ -1,4 +1,3 @@
-import time
 rule_begning_flag=False
 count=0
 head=['Rule-ID']
