@@ -64,7 +64,6 @@ with open('HRC_PUBLIC-MGMT.conf') as f:
         elif rule_begning_flag==True and "next" in  l.strip():
             rule_id_split=l.strip().split()
             rl_begin=False  
-            #print(real_rule)
             csv_mode(real_rule)
                 
             
