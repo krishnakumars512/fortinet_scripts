@@ -11,4 +11,7 @@ Usage:
 4. run the command python <script.py> 
 5. redirect the output to a csv file as below
 
-Usage : python rule_export.py >> output.csv
+Usage : python rule_export.py <file name as an argument> 
+  If you want to redirect the output to a file then use "python rule_export.py <file name as an argument> >> out_file.csv
+
+ Example : python rule_export.py vdom_config.conf >> vdom_config.csv
